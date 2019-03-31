@@ -43,6 +43,12 @@ export default {
   modules: [
   ],
 
+  router : {
+    middleware: [
+      'auth'
+    ]
+  },
+
   /*
   ** Build configuration
   */
