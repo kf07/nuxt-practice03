@@ -15,6 +15,7 @@
     "nuxt": "^2.4.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "universal-cookie": "^3.1.0"
   }
 }

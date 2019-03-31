@@ -1,27 +1,15 @@
 <template>
-  <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        nuxt-practice03
-      </h1>
-      <h2 class="subtitle">
-        My scrumtrulescent Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
-      </div>
-    </div>
-  </section>
+  <div>
+    <h2>index page</h2>
+    <ul>
+      <li>
+        <nuxt-link to='/login'>ログインページ</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to='/authed-route'>認証が必要なページへ</nuxt-link>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>
